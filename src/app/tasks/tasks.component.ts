@@ -27,6 +27,7 @@ export class TasksComponent implements OnInit {
 
   toggleForm() {
     this.isNewTaskFormEnabled = !this.isNewTaskFormEnabled;
+    console.log('sa');
   }
 
   getTasks(): void {
